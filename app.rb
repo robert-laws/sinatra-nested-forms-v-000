@@ -13,7 +13,7 @@ module FormsLab
     end
 
     post "/pirates" do
-      @student = Pirate.new(params[:pirate][name], params[:pirate][weight], params[:pirate][height])
+      @pirate = Pirate.new(params[:pirate][name], params[:pirate][weight], params[:pirate][height])
 
 
 
